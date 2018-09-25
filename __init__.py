@@ -87,22 +87,7 @@ class QuizSkill(MycroftSkill):
         self.speak_dialog("start.quiz", data = response)
         self.enclosure.activate_mouth_events()
         self.enclosure.mouth_reset()
-        company = message.data.get("Company")
-        try:
-            response = self.find_and_query(company)
-            self.bus.once("recognizer_loop:audio_output_start",
-                          self.enclosure.mouth_text(
-                              response['symbol'] + ": " + response['price']))
-            self.enclosure.deactivate_mouth_events()
-            self.speak_dialog("stock.price", data=response)
-            time.sleep(12)
-            self.enclosure.activate_mouth_events()
-            self.enclosure.mouth_reset()
-
-        except Exception as e:
-            self.log.exception(e)
-            self.speak_dialog("not.found", data={'company': company})
-
+        
     def stop(self):
         pass
 
