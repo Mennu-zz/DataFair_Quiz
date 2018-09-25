@@ -1,0 +1,144 @@
+{
+    "questions": [
+        {
+            "ask": "Who created Cassandra?",
+            "options": [
+                "1. Avinash Lakshman & Prashant Mallik",
+                "2. Doug Cutting",
+                "3. Jonathan Ellis"
+            ],
+            "answer": "1",
+            "type": "options"
+        },
+        {
+            "ask": "What is apache Kafka?",
+            "options": [
+                "1. A database",
+                "2. A message broker",
+                "3. A distributed file system"
+            ],
+            "answer": "2",
+            "type": "options"
+        },
+        {
+            "ask": "What is the full form of the acronym EAADS?",
+            "options": [
+                "1. Enterprise Aggregator Account  Data Source",
+                "2. Enterprise Account Aggregator Data store",
+                "3. Enterprise Account Aggregator Data Service"
+            ],
+            "answer": "2",
+            "type": "options"
+        },
+        {
+            "ask": "Where was Kafka created?",
+            "options": [
+                "1. Facebook",
+                "2. Google",
+                "3. Linkedin"
+            ],
+            "answer": "3",
+            "type": "options"
+        },
+        {
+            "ask": "Where was Cassandra created?",
+            "options": [
+                "1. Facebook",
+                "2. Google",
+                "3. Linkedin"
+            ],
+            "answer": "1",
+            "type": "options"
+        },
+        {
+            "ask": "In the context of fast data, how fast is the blink of an eye?",
+            "options": [
+                "1. 300 to 400 ms",
+                "2. 100 to 200 ms",
+                "3. 500 to 600 ms"
+            ],
+            "answer": "1",
+            "type": "options"
+        },
+        {
+            "ask": "How is available Balance for a bank account computed?",
+            "options": [
+                "1. Sum of Running Balance and Overdraft limit",
+                "2. Sum of Running Balance, Overdraft limit and Amount of Pending Transactions",
+                "3. Sum of Running Balance and Amount of Pending Transactions"
+            ],
+            "answer": "2",
+            "type": "options"
+        },
+        {
+            "ask": "What is the expected peak throughput of core banking transactions in Kafka?",
+            "options": [
+                "1. 40,000 transactions per seconds",
+                "2. 10,000 transactions per seconds",
+                "3. 100,000 transactions per seconds"
+            ],
+            "answer": "1",
+            "type": "options"
+        },
+        {
+            "ask": "What is apache storm?",
+            "options": [
+                "1. A NoSQL database",
+                "2. A distributed event processor",
+                "3. A distributed file system"
+            ],
+            "answer": "2",
+            "type": "options"
+        },
+        {
+            "ask": "Which payment method is used to process Direct Debit?",
+            "options": [
+                "1. Faster Payment",
+                "2. BACS",
+                "3. CHAPS"
+            ],
+            "answer": "2",
+            "type": "options"
+        },
+        {
+            "ask": "When was Apache Kafka 1.0 released?",
+            "options": [
+                "1. Year 2013",
+                "2. Year 2015",
+                "3. Year 2017"
+            ],
+            "answer": "3",
+            "type": "options"
+        },
+        {
+            "ask": "What language is Cassandra written in?",
+            "options": [
+                "1. Java",
+                "2. Scala",
+                "3. Python"
+            ],
+            "answer": "1",
+            "type": "options"
+        },
+        {
+            "ask": "Which of the following is not supported by Cassandra?",
+            "options": [
+                "1. Foreign Key",
+                "2. Primary Key",
+                "3. Partition Key"
+            ],
+            "answer": "1",
+            "type": "options"
+        },
+        {
+            "ask": "Where was apache storm created?",
+            "options": [
+                "1. Twitter",
+                "2. Google",
+                "3. Yahoo"
+            ],
+            "answer": "1",
+            "type": "options"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{{express}} {{prevquestion}}? is {{prevanswer}}. Your current score is {{currentscore}} out of {{totalcount}}. Here is your {{count}}th question. {{question}}? and here are your options, {{options}}.
